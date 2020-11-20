@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
 
 export default class Header extends Component {
   render() {
@@ -8,9 +9,9 @@ export default class Header extends Component {
                 <p>Logo</p>
             </div>   
             <ul>
-                <li>Home</li>
+            <Link to="/"><li>Home</li></Link>
                 <li>About</li>
-                <li>Login</li>
+                <Link to="/login"><li>Login</li></Link>
                 <li>Sign Up</li>
             </ul>
       </header>
