@@ -10,9 +10,9 @@ export default class Header extends Component {
             </div>   
             <ul>
             <Link to="/"><li>Home</li></Link>
-                <li>About</li>
+            <Link to="/about"><li>About</li></Link>              
                 <Link to="/login"><li>Login</li></Link>
-                <li>Sign Up</li>
+                <Link to="/signup"><li>Sign Up</li></Link>
             </ul>
       </header>
     );
